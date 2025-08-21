@@ -31,8 +31,8 @@ Display the original, lower contrast, and higher contrast images.
 Split the image (boy.jpg) into B, G, R components and display the channels
 
 ## Program Developed By:
-- **Name:** [Your Name Here]  
-- **Register Number:** [Your Register Number Here]
+- **Name:** Stephen raj y 
+- **Register Number:** 212223230217
 
   ### Ex. No. 01
 
@@ -97,6 +97,8 @@ plt.show()
 ```
 
 #### 10. Read in the image ('Apollo-11-launch.jpg').
+ **Name:** Stephen raj y 
+- **Register Number:** 212223230217
 ```python
 img=cv2.imread('Apollo-11-launch.jpg',cv2.IMREAD_COLOR)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -142,6 +144,8 @@ img_darker = cv2.subtract(img_rgb, m)
 ```
 
 #### 17. Display the images (Original Image, Darker Image, Brighter Image).
+ **Name:** Stephen raj y 
+- **Register Number:** 212223230217
 ```python
 plt.figure(figsize=(10,5))
 plt.subplot(1,3,1), plt.imshow(img_rgb), plt.title("Original Image"), plt.axis("off")
